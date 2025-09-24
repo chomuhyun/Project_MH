@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ProjectMH.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Project_MH\ProjectMH\Intermediate\Build\Win64\x64\ProjectMHEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Project_MH\ProjectMH\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectMH\ProjectMH.cpp.obj"
+"C:\Project_MH\ProjectMH\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectMH\PerModuleInline.gen.cpp.obj"
+"C:\Project_MH\ProjectMH\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectMH\Default.rc2.res"
+/OUT:"C:\Project_MH\ProjectMH\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProjectMH\UnrealEditor-ProjectMH.lib"
