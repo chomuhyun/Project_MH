@@ -1371,3 +1371,657 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2025.09.24-02.25.46:826][105]LogFab: Display: User logged in
 [2025.09.24-02.25.46:826][105]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.09.24-02.25.47:077][120]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-e9ejd4QjzkeWAS21CmgENg-bndVjpdiwEOkP2mKF68FuA]
+[2025.09.24-02.27.35:731][915]LogDerivedDataCache: C:/Users/whang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.24-02.29.14:384][382]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Project_MH/ProjectMH/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.24-02.29.14:384][382]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Project_MH/ProjectMH/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.24-02.29.14:384][382]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Project_MH/ProjectMH/Content/Developers/whang/Collections/' because it could not be accessed. Aborting watch request...
+[2025.09.24-02.29.32:087][435]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.24-02.30.05:124][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.24-02.30.05:130][229]LogStreaming: Display: FlushAsyncLoading(488): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-02.30.05:221][229]LogEditorDomain: Display: Class /Script/Landscape.LandscapeLODStreamingProxy is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2025.09.24-02.30.05:299][229]LogChaosDD: Creating Chaos Debug Draw Scene for world Overview
+[2025.09.24-02.30.05:395][229]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MAEBeechForest/Maps/Overview.Overview
+[2025.09.24-02.30.05:396][229]Cmd: MAP LOAD FILE="../../../../../../Project_MH/ProjectMH/Content/MAEBeechForest/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.24-02.30.05:411][229]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.30.05:411][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.30.05:411][229]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2025.09.24-02.30.05:423][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.24-02.30.05:446][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.09.24-02.30.05:457][229]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.30.05:457][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.30.05:466][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.09.24-02.30.05:471][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.09.24-02.30.05:494][229]LogAudio: Display: Audio Device (ID: 1) registered with world 'Overview'.
+[2025.09.24-02.30.05:494][229]LogChaosDD: Creating Chaos Debug Draw Scene for world Overview
+[2025.09.24-02.30.05:525][229]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.24-02.30.05:534][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.09.24-02.30.05:539][229]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.24-02.30.05:539][229]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.04ms.
+[2025.09.24-02.30.07:286][304]LogPSOHitching: Encountered 50 PSO creation hitches so far (46 graphics, 4 compute). 0 of them were precached.
+[2025.09.24-02.30.13:846][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2025.09.24-02.30.13:848][684]LogStreaming: Display: FlushAsyncLoading(490): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-02.30.21:544][684]LogChaosDD: Creating Chaos Debug Draw Scene for world Showcase
+[2025.09.24-02.30.21:773][684]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MAEBeechForest/Maps/Showcase.Showcase
+[2025.09.24-02.30.21:773][684]Cmd: MAP LOAD FILE="../../../../../../Project_MH/ProjectMH/Content/MAEBeechForest/Maps/Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.24-02.30.21:779][684]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.30.21:779][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.30.21:784][684]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.24-02.30.21:788][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.09.24-02.30.21:810][684]LogWorld: UWorld::CleanupWorld for Showcase, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.30.21:835][684]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.30.22:077][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.09.24-02.30.22:100][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.09.24-02.30.29:551][684]LogAudio: Display: Audio Device (ID: 1) registered with world 'Showcase'.
+[2025.09.24-02.30.29:551][684]LogChaosDD: Creating Chaos Debug Draw Scene for world Showcase
+[2025.09.24-02.30.32:435][684]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.24-02.30.32:483][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.09.24-02.30.32:486][684]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.24-02.30.32:486][684]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.041ms.
+[2025.09.24-02.30.37:441][687]LogPSOHitching: Encountered 100 PSO creation hitches so far (92 graphics, 8 compute). 0 of them were precached.
+[2025.09.24-02.30.38:163][688]LogPSOHitching: Encountered 150 PSO creation hitches so far (142 graphics, 8 compute). 0 of them were precached.
+[2025.09.24-02.30.41:703][787]LogPSOHitching: Encountered 200 PSO creation hitches so far (190 graphics, 10 compute). 0 of them were precached.
+[2025.09.24-02.30.44:340][903]LogRenderer: Warning: [VSM] 비나나이트 마킹 작업 큐가 오버플로됩니다. 퍼포먼스가 영향을 받을 수 있습니다. 이는 비나나이트 메시 다수가 섀도 맵의 많은 영역을 뒤덮을 때 발생합니다.
+[2025.09.24-02.30.50:756][163]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.09.24-02.30.50:768][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.24-02.30.50:775][163]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.09.24-02.30.50:775][163]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.09.24-02.30.50:777][163]LogPlayLevel: Creating play world package: /Game/MAEBeechForest/Maps/UEDPIE_0_Showcase
+[2025.09.24-02.30.51:193][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.415875s)
+[2025.09.24-02.30.51:193][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAEBeechForest/Maps/Showcase.Showcase to /Game/MAEBeechForest/Maps/UEDPIE_0_Showcase.Showcase (0.415934s)
+[2025.09.24-02.30.51:211][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.09.24-02.30.51:215][163]LogChaosDD: Creating Chaos Debug Draw Scene for world Showcase
+[2025.09.24-02.30.51:218][163]LogPlayLevel: PIE: World Init took: (0.003429s)
+[2025.09.24-02.30.51:219][163]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.24-02.30.51:219][163]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.24-02.30.51:219][163]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.24-02.30.51:219][163]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.24-02.30.51:219][163]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.24-02.30.51:219][163]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.24-02.30.51:222][163]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.24-02.30.51:288][163]LogAudioMixer: Display: Using Audio Hardware Device 스피커(3- Realtek(R) Audio)
+[2025.09.24-02.30.51:288][163]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.24-02.30.51:288][163]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.24-02.30.51:288][163]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.24-02.30.51:289][163]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.09.24-02.30.51:289][163]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.09.24-02.30.51:291][163]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.09.24-02.30.51:291][163]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.09.24-02.30.51:291][163]LogInit: FAudioDevice initialized with ID 2.
+[2025.09.24-02.30.51:291][163]LogAudio: Display: Audio Device (ID: 2) registered with world 'Showcase'.
+[2025.09.24-02.30.51:291][163]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.24-02.30.51:298][163]LogLoad: Game class is 'GameModeBase'
+[2025.09.24-02.30.53:033][163]LogWorld: Bringing World /Game/MAEBeechForest/Maps/UEDPIE_0_Showcase.Showcase up for play (max tick rate 60) at 2025.09.24-11.30.53
+[2025.09.24-02.30.53:036][163]LogWorld: Bringing up level for play took: 1.736016
+[2025.09.24-02.30.53:038][163]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2025.09.24-02.30.53:064][163]PIE: 서버가 로그인했습니다.
+[2025.09.24-02.30.53:065][163]PIE: 에디터에서 플레이 총 시작 시간 2.302초입니다.
+[2025.09.24-02.31.04:946][550]LogRenderer: Warning: [VSM] 비나나이트 마킹 작업 큐가 오버플로됩니다. 퍼포먼스가 영향을 받을 수 있습니다. 이는 비나나이트 메시 다수가 섀도 맵의 많은 영역을 뒤덮을 때 발생합니다.
+[2025.09.24-02.31.10:689][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-02.31.10:689][814]LogWorld: BeginTearingDown for /Game/MAEBeechForest/Maps/UEDPIE_0_Showcase
+[2025.09.24-02.31.10:690][814]LogWorld: UWorld::CleanupWorld for Showcase, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.31.10:863][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.31.10:872][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.24-02.31.10:873][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.31.10:896][814]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.24-02.31.10:897][814]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.09.24-02.31.10:900][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.24-02.31.10:902][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.09.24-02.31.10:907][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.24-02.31.11:590][814]LogUObjectHash: Compacting FUObjectHashTables data took  32.82ms
+[2025.09.24-02.31.11:661][815]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2025.09.24-02.31.39:159][508]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 358.169281
+[2025.09.24-02.31.39:455][520]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.24-02.31.39:455][520]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 358.442230, Update Interval: 313.608826
+[2025.09.24-02.31.44:527][718]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.09.24-02.31.44:528][718]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-02.31.44:545][718]LogChaosDD: Creating Chaos Debug Draw Scene for world Overview
+[2025.09.24-02.31.44:557][718]LogObjectTools: Deleting 2 worlds: /Game/MAEBeechForest/Maps/Showcase.Showcase, /Game/MAEBeechForest/Maps/Overview.Overview
+[2025.09.24-02.31.44:557][718]LogObjectTools: Currently 1 active worlds: /Game/MAEBeechForest/Maps/Showcase.Showcase
+[2025.09.24-02.31.44:635][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/CloudShadow/T_Cloud_01.T_Cloud_01(TFO_AutoDXT, 2048x2048 x1x1x1)(예상 필요 메모리: 351.083323MB), 인코딩 속도: Fast
+[2025.09.24-02.31.44:900][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Terrain/Mask/T_Mask_1.T_Mask_1(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.999984MB), 인코딩 속도: Fast
+[2025.09.24-02.31.45:025][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Meshes/Groundplants/MaleFern/T_Male_Fern_NA2.T_Male_Fern_NA2(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 399.083323MB), 인코딩 속도: Fast
+[2025.09.24-02.31.45:079][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Meshes/Trees/T_EuropeanBeech_N.T_EuropeanBeech_N(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 399.083323MB), 인코딩 속도: Fast
+[2025.09.24-02.31.45:137][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Meshes/Groundplants/MaleFern/T_Male_Fern_TR.T_Male_Fern_TR(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 399.083323MB), 인코딩 속도: Fast
+[2025.09.24-02.31.45:210][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Meshes/Trees/T_BeechTree_Translucency_2.T_BeechTree_Translucency_2(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 1152.999984MB), 인코딩 속도: Fast
+[2025.09.24-02.31.45:211][718]LogTexture: Display: 텍스처 빌드 중: /Game/MAEBeechForest/Textures/Meshes/Groundplants/MaleFern/T_Male_Fern_A.T_Male_Fern_A(TFO_AutoDXT, 4096x4096 x1x1x1)(예상 필요 메모리: 399.083323MB), 인코딩 속도: Fast
+[2025.09.24-02.31.46:730][718]LogSlate: Window '레벨을 삭제할 수 없습니다.' being destroyed
+[2025.09.24-02.31.46:744][718]Message dialog closed, result: Ok, title: 레벨을 삭제할 수 없습니다., text: 레벨이 열려 있는 동안에는 삭제할 수 없습니다.
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: ================================================
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Total job queries 1,708, among them cache hits 379 (22.19%), DDC hits 1,271 (74.41%), Duplicates 55 (3.22%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Tracking 1,274 distinct input hashes that result in 851 distinct outputs (66.80%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: RAM used: 537.89 KiB of 1.60 GiB budget. Usage: 0.03%
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Shaders Compiled: 3
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Time job spent in pending queue: average 0.21 s, longest 0.22 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Job execution time: average 0.99 s, max 1.05 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 1.27
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Shader code size: average 9.761 KiB, min 7.98 KiB, max 14.316 KiB
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.27 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.08%
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Average processing rate: 2.36 jobs/sec
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Total thread time: 0.836 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Total thread preprocess time: 26.018 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Percentage time preprocessing: 3113.80%
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Effective parallelization: 0.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 31.24% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 25.43% of total time (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                                  FVelocityPS - 24.81% of total time (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                                  FVelocityVS - 18.52% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display:                                             FDebugViewModeVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: === Material stats ===
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Materials Translated:    192
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Material Translation Only: 0.11 s (60%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: Material Cache Hits: 33 (17%)
+[2025.09.24-02.31.46:745][718]LogShaderCompilers: Display: ================================================
+[2025.09.24-02.31.57:146][105]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.09.24-02.31.57:153][105]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.09.24-02.31.57:160][106]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.09.24-02.31.59:777][216]LogContentBrowser: Attempting asset rename: 새 폴더 -> Maps
+[2025.09.24-02.31.59:777][216]LogContentBrowser: End creating deferred item 새 폴더
+[2025.09.24-02.32.04:714][413]LogStreaming: Display: FlushAsyncLoading(505): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-02.32.08:354][413]LogSlate: Window '새 레벨' being destroyed
+[2025.09.24-02.32.08:371][413]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.09.24-02.32.09:058][413]LogWorld: UWorld::CleanupWorld for Showcase, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.32.09:060][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.32.09:072][413]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.24-02.32.09:809][413]LogUObjectHash: Compacting FUObjectHashTables data took   7.94ms
+[2025.09.24-02.32.09:861][413]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.32.09:863][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.32.09:870][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.09.24-02.32.09:876][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.09.24-02.32.09:879][413]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2025.09.24-02.32.09:879][413]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2025.09.24-02.32.09:881][413]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_2)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.09.24-02.32.09:881][413]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.09.24-02.32.09:881][413]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_2.Untitled_2, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.09.24-02.32.10:060][413]LogWorldPartition: Display: WorldPartition initialize took 179.500 ms (total: 370.831 ms)
+[2025.09.24-02.32.10:370][413]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.09.24-02.32.10:377][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.09.24-02.32.10:377][413]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.09.24-02.32.10:378][413]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.783ms.
+[2025.09.24-02.32.16:243][733]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.09.24-02.32.16:243][733]LogStreaming: Display: FlushAsyncLoading(651): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.24-02.32.16:264][733]LogChaosDD: Creating Chaos Debug Draw Scene for world Overview
+[2025.09.24-02.32.23:841][733]LogChaosDD: Creating Chaos Debug Draw Scene for world Showcase
+[2025.09.24-02.32.23:951][733]LogObjectTools: Deleting 2 worlds: /Game/MAEBeechForest/Maps/Overview.Overview, /Game/MAEBeechForest/Maps/Showcase.Showcase
+[2025.09.24-02.32.23:951][733]LogObjectTools: Currently 1 active worlds: /Temp/Untitled_2.Untitled_2
+[2025.09.24-02.32.24:033][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.09.24-02.32.52:350][733]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.24-02.32.52:490][733]LogUObjectGlobals: Force Deleting 342 Package(s):
+	Asset Name: /Game/MAEBeechForest/Materials/Foliages/M_Vegetations.M_Vegetations
+	Asset Type: Material
+	Asset Name: /Game/MAEBeechForest/Materials/Functions/MF_Wind.MF_Wind
+	Asset Type: MaterialFunction
+	Asset Name: /Game/MAEBeechForest/Materials/Functions/MPC_GlobalWind.MPC_GlobalWind
+	Asset Type: MaterialParameterCollection
+	Asset Name: /Game/MAEBeechForest/Materials/ContactShadow/MF_ContactShadow.MF_ContactShadow
+	Asset Type: MaterialFunction
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_BeechTree_h_Trunk_NA.T_BeechTree_h_Trunk_NA
+	Asset Type: Texture2D
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_BeechTree_h_Trunk_AR.T_BeechTree_h_Trunk_AR
+	Asset Type: Texture2D
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_Beech_Tree_h_I_Normal.T_Beech_Tree_h_I_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_Beech_Tree_h_I_BaseColor.T_Beech_Tree_h_I_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_BeechTree_h_Bark_Tile_NA.T_BeechTree_h_Bark_Tile_NA
+	Asset Type: Texture2D
+	Asset Name: /Game/MAEBeechForest/Textures/Meshes/Trees/T_BeechTree_h_Bark_Tile_AR.T_BeechTree_h_Bark_Tile_AR
+	Asset Type: Texture2D
+[2025.09.24-02.32.56:350][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Vegetations.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:352][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Vegetations.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:353][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Vegetations.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:357][733]LogStaticMesh: Display: SM_Grass_a스태틱 메시 빌드 중(필요 메모리 예상: 2.134562MB)...
+[2025.09.24-02.32.56:360][733]LogStaticMesh: Display: SM_Western_Brackenfern_a스태틱 메시 빌드 중(필요 메모리 예상: 3.070992MB)...
+[2025.09.24-02.32.56:363][733]LogStaticMesh: Display: SM_Western_Brackenfern_Mixed_a스태틱 메시 빌드 중(필요 메모리 예상: 2.292823MB)...
+[2025.09.24-02.32.56:364][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:365][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:366][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:367][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:368][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:369][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:370][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:370][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:377][733]LogStaticMesh: Display: SM_Small_Rock_e스태틱 메시 빌드 중(필요 메모리 예상: 2.949226MB)...
+[2025.09.24-02.32.56:378][733]LogStaticMesh: Display: SM_Small_Rock_a스태틱 메시 빌드 중(필요 메모리 예상: 2.945541MB)...
+[2025.09.24-02.32.56:380][733]LogStaticMesh: Display: SM_Small_Rock_g스태틱 메시 빌드 중(필요 메모리 예상: 2.949213MB)...
+[2025.09.24-02.32.56:384][733]LogStaticMesh: Display: SM_Small_Rock_i스태틱 메시 빌드 중(필요 메모리 예상: 2.948439MB)...
+[2025.09.24-02.32.56:387][733]LogStaticMesh: Display: SM_Small_Rock_b스태틱 메시 빌드 중(필요 메모리 예상: 2.937898MB)...
+[2025.09.24-02.32.56:391][733]LogStaticMesh: Display: SM_Small_Rock_c스태틱 메시 빌드 중(필요 메모리 예상: 2.952377MB)...
+[2025.09.24-02.32.56:393][733]LogStaticMesh: Display: SM_Small_Rock_d스태틱 메시 빌드 중(필요 메모리 예상: 2.950615MB)...
+[2025.09.24-02.32.56:399][733]LogStaticMesh: Display: SM_Small_Rock_f스태틱 메시 빌드 중(필요 메모리 예상: 2.950001MB)...
+[2025.09.24-02.32.56:399][733]LogStaticMesh: Display: SM_Dried_Beech_Leaves_a스태틱 메시 빌드 중(필요 메모리 예상: 2.687191MB)...
+[2025.09.24-02.32.56:401][733]LogStaticMesh: Display: SM_Dried_Beech_Leaves_b스태틱 메시 빌드 중(필요 메모리 예상: 3.356232MB)...
+[2025.09.24-02.32.56:404][733]LogStaticMesh: Display: SM_Green_Hellebore_d스태틱 메시 빌드 중(필요 메모리 예상: 3.688255MB)...
+[2025.09.24-02.32.56:404][733]LogStaticMesh: Display: SM_Green_Hellebore_a스태틱 메시 빌드 중(필요 메모리 예상: 0.741245MB)...
+[2025.09.24-02.32.56:413][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:414][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:415][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:417][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:418][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:419][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:420][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Foliages\M_Nature_Tile.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:438][733]LogStaticMesh: Built static mesh [0.03s] /Game/MAEBeechForest/Meshes/Groundplants/GreenHellebore/SM_Green_Hellebore_a.SM_Green_Hellebore_a
+[2025.09.24-02.32.56:440][733]LogStaticMesh: Display: SM_Male_Fern_e스태틱 메시 빌드 중(필요 메모리 예상: 1.445727MB)...
+[2025.09.24-02.32.56:447][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:447][733]LogMaterial: Warning: M_Beech_Forest_Landscape: Requesting an invalid TextureIndex! (13 / 2)
+[2025.09.24-02.32.56:460][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:463][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:465][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:467][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:469][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:470][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:471][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Terrain\M_Beech_Forest_Landscape.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.56:509][733]LogStaticMesh: Built static mesh [0.07s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_e.SM_Male_Fern_e
+[2025.09.24-02.32.56:511][733]LogStaticMesh: Display: SM_Male_Fern_f스태틱 메시 빌드 중(필요 메모리 예상: 0.767341MB)...
+[2025.09.24-02.32.56:520][733]LogStaticMesh: Built static mesh [0.16s] /Game/MAEBeechForest/Meshes/Grass/SM_Grass_a.SM_Grass_a
+[2025.09.24-02.32.56:522][733]LogStaticMesh: Display: SM_Beech_Tree_sapling_a스태틱 메시 빌드 중(필요 메모리 예상: 0.146626MB)...
+[2025.09.24-02.32.56:528][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_sapling_a.SM_Beech_Tree_sapling_a
+[2025.09.24-02.32.56:529][733]LogStaticMesh: Display: SM_Beech_Tree_sapling_b스태틱 메시 빌드 중(필요 메모리 예상: 0.204557MB)...
+[2025.09.24-02.32.56:540][733]LogStaticMesh: Built static mesh [0.14s] /Game/MAEBeechForest/Meshes/Groundplants/GreenHellebore/SM_Green_Hellebore_d.SM_Green_Hellebore_d
+[2025.09.24-02.32.56:541][733]LogStaticMesh: Display: SM_Beech_Tree_seedling_c스태틱 메시 빌드 중(필요 메모리 예상: 0.269359MB)...
+[2025.09.24-02.32.56:543][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_sapling_b.SM_Beech_Tree_sapling_b
+[2025.09.24-02.32.56:544][733]LogStaticMesh: Display: SM_Beech_Wood_Stick_a스태틱 메시 빌드 중(필요 메모리 예상: 0.957732MB)...
+[2025.09.24-02.32.56:550][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_seedling_c.SM_Beech_Tree_seedling_c
+[2025.09.24-02.32.56:551][733]LogStaticMesh: Built static mesh [0.04s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_f.SM_Male_Fern_f
+[2025.09.24-02.32.56:551][733]LogStaticMesh: Display: SM_Small_Rock_j스태틱 메시 빌드 중(필요 메모리 예상: 2.951169MB)...
+[2025.09.24-02.32.56:553][733]LogStaticMesh: Display: SM_Butterbur_a스태틱 메시 빌드 중(필요 메모리 예상: 2.38631MB)...
+[2025.09.24-02.32.56:555][733]LogStaticMesh: Built static mesh [0.16s] /Game/MAEBeechForest/Meshes/Covers/SM_Dried_Beech_Leaves_a.SM_Dried_Beech_Leaves_a
+[2025.09.24-02.32.56:558][733]LogStaticMesh: Display: SM_Butterbur_b스태틱 메시 빌드 중(필요 메모리 예상: 4.98482MB)...
+[2025.09.24-02.32.56:583][733]LogStaticMesh: Built static mesh [0.22s] /Game/MAEBeechForest/Meshes/Groundplants/WesternBrackenFern/SM_Western_Brackenfern_Mixed_a.SM_Western_Brackenfern_Mixed_a
+[2025.09.24-02.32.56:586][733]LogStaticMesh: Display: SM_Coltsfoot_a스태틱 메시 빌드 중(필요 메모리 예상: 6.579904MB)...
+[2025.09.24-02.32.56:589][733]LogMaterial: Display: Missing cached shadermap for LandscapeMaterialInstanceConstant_2 in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 6ce739780c18ee027a8a844a4da8aa82d23b75ca), compiling. Is special engine material.
+[2025.09.24-02.32.56:591][733]LogStaticMesh: Built static mesh [0.23s] /Game/MAEBeechForest/Meshes/Groundplants/WesternBrackenFern/SM_Western_Brackenfern_a.SM_Western_Brackenfern_a
+[2025.09.24-02.32.56:595][733]LogStaticMesh: Display: SM_Small_Rock_h스태틱 메시 빌드 중(필요 메모리 예상: 2.94667MB)...
+[2025.09.24-02.32.56:610][733]LogStaticMesh: Built static mesh [0.21s] /Game/MAEBeechForest/Meshes/Covers/SM_Dried_Beech_Leaves_b.SM_Dried_Beech_Leaves_b
+[2025.09.24-02.32.56:620][733]LogStaticMesh: Built static mesh [0.08s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Wood_Stick_a.SM_Beech_Wood_Stick_a
+[2025.09.24-02.32.56:620][733]LogStaticMesh: Display: SM_Green_Hellebore_c스태틱 메시 빌드 중(필요 메모리 예상: 3.872418MB)...
+[2025.09.24-02.32.56:759][733]LogStaticMesh: Built static mesh [0.21s] /Game/MAEBeechForest/Meshes/Groundplants/Butterbur/SM_Butterbur_a.SM_Butterbur_a
+[2025.09.24-02.32.56:833][733]LogStaticMesh: Built static mesh [0.46s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_a.SM_Small_Rock_a
+[2025.09.24-02.32.56:845][733]LogStaticMesh: Built static mesh [0.23s] /Game/MAEBeechForest/Meshes/Groundplants/GreenHellebore/SM_Green_Hellebore_c.SM_Green_Hellebore_c
+[2025.09.24-02.32.56:884][733]LogStaticMesh: Built static mesh [0.50s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_b.SM_Small_Rock_b
+[2025.09.24-02.32.56:886][733]LogStaticMesh: Built static mesh [0.49s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_d.SM_Small_Rock_d
+[2025.09.24-02.32.56:921][733]LogStaticMesh: Built static mesh [0.53s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_c.SM_Small_Rock_c
+[2025.09.24-02.32.56:953][733]LogStaticMesh: Built static mesh [0.58s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_e.SM_Small_Rock_e
+[2025.09.24-02.32.57:028][733]LogStaticMesh: Built static mesh [0.47s] /Game/MAEBeechForest/Meshes/Groundplants/Butterbur/SM_Butterbur_b.SM_Butterbur_b
+[2025.09.24-02.32.57:035][733]LogStaticMesh: Built static mesh [0.65s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_i.SM_Small_Rock_i
+[2025.09.24-02.32.57:042][733]LogStaticMesh: Built static mesh [0.64s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_f.SM_Small_Rock_f
+[2025.09.24-02.32.57:066][733]LogStaticMesh: Built static mesh [0.69s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_g.SM_Small_Rock_g
+[2025.09.24-02.32.57:067][733]LogStaticMesh: Warning: SM_Small_Rock_g 메시에 거의 0 인 탄젠트가 있어 문제 발생 소지가 있습니다. (허용치 1E-4)
+[2025.09.24-02.32.57:067][733]LogStaticMesh: Warning: SM_Small_Rock_g 메시에 거의 0 인 바이노멀이 있어 문제 발생 소지가 있습니다. (허용치 1E-4)
+[2025.09.24-02.32.57:094][733]LogStaticMesh: Display: SM_Male_Fern_i스태틱 메시 빌드 중(필요 메모리 예상: 0.455237MB)...
+[2025.09.24-02.32.57:094][733]LogStaticMesh: Display: SM_Coltsfoot_b스태틱 메시 빌드 중(필요 메모리 예상: 4.998759MB)...
+[2025.09.24-02.32.57:094][733]LogStaticMesh: Display: SM_BeechTree_Seedling_group스태틱 메시 빌드 중(필요 메모리 예상: 0.19672MB)...
+[2025.09.24-02.32.57:094][733]LogStaticMesh: Display: SM_Green_Hellebore_b스태틱 메시 빌드 중(필요 메모리 예상: 0.188729MB)...
+[2025.09.24-02.32.57:095][733]LogStaticMesh: Display: SM_Beech_Tree_seedling_b스태틱 메시 빌드 중(필요 메모리 예상: 0.119102MB)...
+[2025.09.24-02.32.57:095][733]LogStaticMesh: Display: SM_Mossy_Rock_f스태틱 메시 빌드 중(필요 메모리 예상: 9.795157MB)...
+[2025.09.24-02.32.57:096][733]LogStaticMesh: Display: SM_Mossy_Rock_d스태틱 메시 빌드 중(필요 메모리 예상: 19.533965MB)...
+[2025.09.24-02.32.57:096][733]LogStaticMesh: Display: SM_Western_Brackenfern_Mixed_b스태틱 메시 빌드 중(필요 메모리 예상: 2.422772MB)...
+[2025.09.24-02.32.57:097][733]LogStaticMesh: Display: SM_Mossy_Rock_e스태틱 메시 빌드 중(필요 메모리 예상: 8.830903MB)...
+[2025.09.24-02.32.57:097][733]LogStaticMesh: Display: SM_Mossy_Rock_c스태틱 메시 빌드 중(필요 메모리 예상: 19.430718MB)...
+[2025.09.24-02.32.57:098][733]LogStaticMesh: Display: SM_Mossy_Rock_b스태틱 메시 빌드 중(필요 메모리 예상: 7.029346MB)...
+[2025.09.24-02.32.57:099][733]LogStaticMesh: Display: SM_Mossy_Rock_g스태틱 메시 빌드 중(필요 메모리 예상: 8.61214MB)...
+[2025.09.24-02.32.57:103][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_i.SM_Male_Fern_i
+[2025.09.24-02.32.57:104][733]LogStaticMesh: Display: SM_Mossy_Rock_a스태틱 메시 빌드 중(필요 메모리 예상: 4.367897MB)...
+[2025.09.24-02.32.57:104][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_seedling_b.SM_Beech_Tree_seedling_b
+[2025.09.24-02.32.57:105][733]LogStaticMesh: Display: SM_Male_Fern_o스태틱 메시 빌드 중(필요 메모리 예상: 0.512789MB)...
+[2025.09.24-02.32.57:107][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/GreenHellebore/SM_Green_Hellebore_b.SM_Green_Hellebore_b
+[2025.09.24-02.32.57:107][733]LogStaticMesh: Display: SM_Male_Fern_n스태틱 메시 빌드 중(필요 메모리 예상: 0.655536MB)...
+[2025.09.24-02.32.57:109][733]LogStaticMesh: Built static mesh [0.02s] /Game/MAEBeechForest/Meshes/Trees/SM_BeechTree_Seedling_group.SM_BeechTree_Seedling_group
+[2025.09.24-02.32.57:109][733]LogStaticMesh: Display: SM_Male_Fern_m스태틱 메시 빌드 중(필요 메모리 예상: 0.628786MB)...
+[2025.09.24-02.32.57:114][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_o.SM_Male_Fern_o
+[2025.09.24-02.32.57:115][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_n.SM_Male_Fern_n
+[2025.09.24-02.32.57:115][733]LogStaticMesh: Display: SM_Male_Fern_l스태틱 메시 빌드 중(필요 메모리 예상: 0.909994MB)...
+[2025.09.24-02.32.57:116][733]LogStaticMesh: Display: SM_Male_Fern_k스태틱 메시 빌드 중(필요 메모리 예상: 0.909994MB)...
+[2025.09.24-02.32.57:117][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_m.SM_Male_Fern_m
+[2025.09.24-02.32.57:118][733]LogStaticMesh: Display: SM_Male_Fern_j스태틱 메시 빌드 중(필요 메모리 예상: 0.909994MB)...
+[2025.09.24-02.32.57:127][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_l.SM_Male_Fern_l
+[2025.09.24-02.32.57:128][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_k.SM_Male_Fern_k
+[2025.09.24-02.32.57:129][733]LogStaticMesh: Display: SM_Male_Fern_h스태틱 메시 빌드 중(필요 메모리 예상: 1.938769MB)...
+[2025.09.24-02.32.57:130][733]LogStaticMesh: Display: SM_Male_Fern_g스태틱 메시 빌드 중(필요 메모리 예상: 1.139913MB)...
+[2025.09.24-02.32.57:130][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_j.SM_Male_Fern_j
+[2025.09.24-02.32.57:133][733]LogStaticMesh: Display: SM_Male_Fern_d스태틱 메시 빌드 중(필요 메모리 예상: 1.705813MB)...
+[2025.09.24-02.32.57:150][733]LogStaticMesh: Built static mesh [0.60s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_j.SM_Small_Rock_j
+[2025.09.24-02.32.57:153][733]LogStaticMesh: Display: SM_Male_Fern_c스태틱 메시 빌드 중(필요 메모리 예상: 1.139913MB)...
+[2025.09.24-02.32.57:191][733]LogStaticMesh: Built static mesh [0.06s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_g.SM_Male_Fern_g
+[2025.09.24-02.32.57:193][733]LogStaticMesh: Display: SM_Male_Fern_b스태틱 메시 빌드 중(필요 메모리 예상: 1.139913MB)...
+[2025.09.24-02.32.57:209][733]LogStaticMesh: Built static mesh [0.62s] /Game/MAEBeechForest/Meshes/Groundplants/Coltsfoot/SM_Coltsfoot_a.SM_Coltsfoot_a
+[2025.09.24-02.32.57:210][733]LogStaticMesh: Built static mesh [0.06s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_c.SM_Male_Fern_c
+[2025.09.24-02.32.57:210][733]LogStaticMesh: Display: SM_Male_Fern_a스태틱 메시 빌드 중(필요 메모리 예상: 1.032674MB)...
+[2025.09.24-02.32.57:211][733]LogStaticMesh: Display: SM_Dead_BeechTree_a스태틱 메시 빌드 중(필요 메모리 예상: 21.251548MB)...
+[2025.09.24-02.32.57:213][733]LogStaticMesh: Built static mesh [0.08s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_d.SM_Male_Fern_d
+[2025.09.24-02.32.57:216][733]LogStaticMesh: Display: SM_Beech_Tree_seedling_a스태틱 메시 빌드 중(필요 메모리 예상: 0.060782MB)...
+[2025.09.24-02.32.57:220][733]LogStaticMesh: Built static mesh [0.09s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_h.SM_Male_Fern_h
+[2025.09.24-02.32.57:221][733]LogStaticMesh: Built static mesh [0.01s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_seedling_a.SM_Beech_Tree_seedling_a
+[2025.09.24-02.32.57:225][733]LogStaticMesh: Built static mesh [0.13s] /Game/MAEBeechForest/Meshes/Groundplants/WesternBrackenFern/SM_Western_Brackenfern_Mixed_b.SM_Western_Brackenfern_Mixed_b
+[2025.09.24-02.32.57:243][733]LogStaticMesh: Built static mesh [0.65s] /Game/MAEBeechForest/Meshes/SmallRocks/SM_Small_Rock_h.SM_Small_Rock_h
+[2025.09.24-02.32.57:247][733]LogStaticMesh: Built static mesh [0.05s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_b.SM_Male_Fern_b
+[2025.09.24-02.32.57:250][733]LogStaticMesh: Built static mesh [0.04s] /Game/MAEBeechForest/Meshes/Groundplants/MaleFern/SM_Male_Fern_a.SM_Male_Fern_a
+[2025.09.24-02.32.57:283][733]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'r.Water.WaterInfo.RenderMethod'. 
+[2025.09.24-02.32.57:313][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:315][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:317][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:319][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:321][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:323][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Water\M_Water.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2025.09.24-02.32.57:363][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:365][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:367][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:369][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:372][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:373][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:375][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\Impostor\M_Impostor.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	Missing Material Function
+	Missing Material Function
+
+[2025.09.24-02.32.57:397][733]LogStaticMesh: Display: SM_Beech_Tree_b스태틱 메시 빌드 중(필요 메모리 예상: 43.063496MB)...
+[2025.09.24-02.32.57:404][733]LogStaticMesh: Display: SM_Beech_Tree_c스태틱 메시 빌드 중(필요 메모리 예상: 26.762555MB)...
+[2025.09.24-02.32.57:405][733]LogStaticMesh: Display: SM_Beech_Tree_d스태틱 메시 빌드 중(필요 메모리 예상: 46.751324MB)...
+[2025.09.24-02.32.57:405][733]LogStaticMesh: Display: SM_Beech_Tree_a스태틱 메시 빌드 중(필요 메모리 예상: 43.047107MB)...
+[2025.09.24-02.32.57:411][733]LogStaticMesh: Display: SM_Beech_Tree_e스태틱 메시 빌드 중(필요 메모리 예상: 33.705925MB)...
+[2025.09.24-02.32.57:411][733]LogStaticMesh: Display: SM_Beech_Tree_g스태틱 메시 빌드 중(필요 메모리 예상: 49.794097MB)...
+[2025.09.24-02.32.57:419][733]LogStaticMesh: Built static mesh [0.32s] /Game/MAEBeechForest/Meshes/Groundplants/Coltsfoot/SM_Coltsfoot_b.SM_Coltsfoot_b
+[2025.09.24-02.32.57:420][733]LogStaticMesh: Display: SM_Beech_Tree_h스태틱 메시 빌드 중(필요 메모리 예상: 38.392761MB)...
+[2025.09.24-02.32.57:613][733]LogStaticMesh: Built static mesh [0.51s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_a.SM_Mossy_Rock_a
+[2025.09.24-02.32.57:614][733]LogStaticMesh: Display: SM_Beech_Tree_f스태틱 메시 빌드 중(필요 메모리 예상: 49.767955MB)...
+[2025.09.24-02.32.57:630][733]LogStaticMesh: Built static mesh [0.23s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_c.SM_Beech_Tree_c
+[2025.09.24-02.32.57:705][733]LogStaticMesh: Built static mesh [0.29s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_h.SM_Beech_Tree_h
+[2025.09.24-02.32.57:754][733]LogStaticMesh: Built static mesh [0.35s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_d.SM_Beech_Tree_d
+[2025.09.24-02.32.57:754][733]LogStaticMesh: Built static mesh [0.34s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_e.SM_Beech_Tree_e
+[2025.09.24-02.32.57:756][733]LogStaticMesh: Built static mesh [0.35s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_a.SM_Beech_Tree_a
+[2025.09.24-02.32.57:761][733]LogStaticMesh: Built static mesh [0.37s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_b.SM_Beech_Tree_b
+[2025.09.24-02.32.57:931][733]LogStaticMesh: Built static mesh [0.83s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_b.SM_Mossy_Rock_b
+[2025.09.24-02.32.58:008][733]LogStaticMesh: Built static mesh [0.91s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_g.SM_Mossy_Rock_g
+[2025.09.24-02.32.58:153][733]LogStaticMesh: Built static mesh [0.74s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_g.SM_Beech_Tree_g
+[2025.09.24-02.32.58:262][733]LogStaticMesh: Built static mesh [0.65s] /Game/MAEBeechForest/Meshes/Trees/SM_Beech_Tree_f.SM_Beech_Tree_f
+[2025.09.24-02.32.58:583][733]LogStaticMesh: Built static mesh [1.49s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_f.SM_Mossy_Rock_f
+[2025.09.24-02.32.58:612][733]LogStaticMesh: Built static mesh [1.52s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_e.SM_Mossy_Rock_e
+[2025.09.24-02.32.59:759][733]LogStaticMesh: Built static mesh [2.66s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_d.SM_Mossy_Rock_d
+[2025.09.24-02.32.59:863][733]LogStaticMesh: Built static mesh [2.77s] /Game/MAEBeechForest/Meshes/Rocks/SM_Mossy_Rock_c.SM_Mossy_Rock_c
+[2025.09.24-02.33.00:064][733]LogStaticMesh: Built static mesh [2.85s] /Game/MAEBeechForest/Meshes/Logs/SM_Dead_BeechTree_a.SM_Dead_BeechTree_a
+[2025.09.24-02.33.08:499][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\CloudShadow\M_CloudShadow.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.09.24-02.33.08:526][733]LogMaterial: Warning: [AssetLog] C:\Project_MH\ProjectMH\Content\MAEBeechForest\Materials\CloudShadow\M_CloudShadow.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.09.24-02.33.09:303][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.09.24-02.33.14:009][733]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.33.14:009][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.33.14:026][733]LogWorld: UWorld::CleanupWorld for Showcase, bSessionEnded=true, bCleanupResources=true
+[2025.09.24-02.33.14:028][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.24-02.33.19:682][733]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 10007 triangles, SM_Beech_Tree_g
+[2025.09.24-02.33.20:743][733]LogMeshUtilities: Finished distance field build in 1.1s - 126x126x126 sparse distance field, 2.1Mb total, 0.1Mb always loaded, 61% occupied, 6799 triangles, SM_Beech_Tree_e
+[2025.09.24-02.33.22:556][733]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 49% occupied, 5374 triangles, SM_Beech_Tree_c
+[2025.09.24-02.33.23:562][733]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 54% occupied, 10002 triangles, SM_Beech_Tree_f
+[2025.09.24-02.33.24:863][733]LogMeshUtilities: Finished distance field build in 1.8s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 46% occupied, 9278 triangles, SM_Beech_Tree_d
+[2025.09.24-02.33.25:059][733]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 7758 triangles, SM_Beech_Tree_h
+[2025.09.24-02.33.25:978][733]LogMeshUtilities: Finished distance field build in 1.0s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 55% occupied, 8417 triangles, SM_Beech_Tree_a
+[2025.09.24-02.33.29:530][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.09.24-02.33.29:554][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.09.24-02.33.29:563][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
